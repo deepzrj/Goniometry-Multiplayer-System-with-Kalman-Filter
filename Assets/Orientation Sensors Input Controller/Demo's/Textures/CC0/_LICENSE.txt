@@ -1,0 +1,8 @@
+License: Creative Commons CC0 1.0 Universal (CC0 1.0)
+"No Copyright. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission."
+To view a copy of this license, visit https://creativecommons.org/publicdomain/zero/1.0/legalcode
+For a human-readable summary of the legal code, visit https://creativecommons.org/publicdomain/zero/1.0/)
+
+Original sources: 
+	https://opengameart.org/
+	https://openclipart.org/

@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9002008510751562814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9002008510751562784}
+  - component: {fileID: 9002008510751562787}
+  - component: {fileID: 1784835732542623646}
+  - component: {fileID: 1784835732542623641}
+  m_Layer: 0
+  m_Name: MSP_Input
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9002008510751562784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9002008510751562814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9002008510751562787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9002008510751562814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5919982c18dd740b3b40c223f18614aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseOrientation: 0
+  smoothingTime: 0.1
+  headingOffset: 0
+  pitchOffset:
+    value: 0
+    minValue: -70
+    maxValue: 70
+    minValueLimit: -90
+    maxValueLimit: 90
+  gameWorldHPR_Unclamped:
+    heading: 0
+    pitch: 0
+    roll: 0
+  gameWorldHPR_Clamped:
+    heading: 0
+    pitch: 0
+    roll: 0
+  deviceHPR:
+    heading: 0
+    pitch: 0
+    roll: 0
+  gyroscopeEnabled: 1
+  gyroHeadingAmplifier: 1
+  gyroPitchAmplifier: 1
+  gyroDriftCompensation: 0
+  gyroDriftHPR:
+    heading: 0
+    pitch: 0
+    roll: 0
+  accelerometerEnabled: 0
+  magnetometerEnabled: 0
+  magneticDeclination: 0
+  setGameNorthToCompassNorth: 0
+  compassHeading: 0
+  editorSimulation: 0
+  simulationSensitivity: {x: 20, y: 10}
+  transformUpdateList: []
+  inspTransformIndex: -1
+--- !u!114 &1784835732542623646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9002008510751562814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 310f1911f8c2f43bcb7b9bd7dafdafe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiList: []
+  inspIndex: -1
+  showInEditMode: 1
+  material: {fileID: 0}
+--- !u!20 &1784835732542623641
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9002008510751562814}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_GateFitMode: 2
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.1
+  far clip plane: 1
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: 90
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
